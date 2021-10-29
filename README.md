@@ -17,4 +17,4 @@ samples, guidance on mobile development, and a full API reference.
 
 # flutter_google_maps_example
 
-Add API keys for iOS and Android from [GCP](https://console.cloud.google.com/google/maps-apis/credentials) to `ios/Runner/APIKey.plist` and `android/app/src/main/res/values/keys.xml` respectively. 
+Add Maps API keys for iOS and Android from [GCP](https://console.cloud.google.com/google/maps-apis/credentials) to `ios/Runner/APIKey.plist` and `android/app/src/main/res/values/keys.xml` respectively. 
