@@ -14,4 +14,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
 # flutter_google_maps_example
+
+Add API keys for iOS and Android from [GCP](https://console.cloud.google.com/google/maps-apis/credentials) to `ios/Runner/APIKey.plist` and `android/app/src/main/res/values/keys.xml` respectively. 
