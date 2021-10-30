@@ -1,20 +1,16 @@
 # maps_example
 
-A new Flutter project.
-
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for getting Google Maps integrated into your Flutter app using the [google_maps_flutter](https://pub.dev/packages/google_maps_flutter) package.
 
-A few resources to get you started if this is your first Flutter project:
+# Installation
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Ensure you have flutter installed correctly by running `flutter doctor`. You should get all green ticks. 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Create and Add Maps API keys for iOS and Android from [GCP](https://console.cloud.google.com/google/maps-apis/credentials) to `ios/Runner/APIKey.plist` and `android/app/src/main/res/values/keys.xml` respectively. 
 
-# flutter_google_maps_example
+Then `flutter run`, or in VS Code select your simulator device and run. 
 
-Add Maps API keys for iOS and Android from [GCP](https://console.cloud.google.com/google/maps-apis/credentials) to `ios/Runner/APIKey.plist` and `android/app/src/main/res/values/keys.xml` respectively. 
+You will get a basic full screen google map with a button allowing you to pan/zoom/focus to a particular Latitude/Longitude location. 
+
