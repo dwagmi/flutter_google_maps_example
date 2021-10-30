@@ -4,6 +4,8 @@
 
 This project is a starting point for getting Google Maps integrated into your Flutter app using the [google_maps_flutter](https://pub.dev/packages/google_maps_flutter) package.
 
+This project was made by combining the [pub.dev package set up instructons](https://pub.dev/packages/google_maps_flutter) and removing API keys from source in [this Medium article](https://medium.com/@ykaito21/flutter-from-zero-to-one-how-to-ignore-google-map-api-key-from-source-control-18e119ff5a47). 
+
 # Installation
 
 Ensure you have flutter installed correctly by running `flutter doctor`. You should get all green ticks. 
